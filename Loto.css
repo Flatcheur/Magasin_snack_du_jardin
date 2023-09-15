@@ -1,0 +1,175 @@
+body{
+    margin: 0px; 
+    padding: 0px;   
+}
+.header{
+    background-color: green;  
+    height: 80px; 
+    margin: 10px; 
+}
+nav ul li{
+    list-style-type: none; 
+    display: inline-block; 
+    padding: 10px; 
+}
+ul li a{ 
+    color: #fff; 
+    letter-spacing: 0.1rem; 
+}
+ul li a:hover{ 
+    color: #ffd358; 
+    text-decoration: underline; 
+}
+.menu li{
+    float: left; 
+    padding: 35px; 
+}
+.menu li a{ 
+    text-decoration: none; 
+}
+
+.header from{ 
+    float: right !important;
+    margin-right: 50px ; 
+    margin-top: 20px; 
+}
+input[type="search"]{ 
+    font-size : 17px; 
+}
+
+section{
+    padding-top : 7rem; 
+}
+
+.choix_loto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.loto img{
+    width: 450px;
+    height: 253px;
+    transition: 0.35s ease;
+}
+
+.loto img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+}
+
+.information h3{ 
+    margin-left:100px; 
+    font-size : 50px; 
+}
+
+.numero .selection_des_numeros { 
+    display: flex; 
+    margin: 10px; 
+    gap: 10rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+} 
+
+.numero .Titre_jeu{ 
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline overline solid blue; 
+}
+
+.numero .regle_de_jeu {
+    font-size: 24px; 
+}
+
+.numero .chance {
+    font-size: 24px; 
+    text-align: center;
+}
+.numero .grille_de_numero .ligne_de_numero li button{
+    display:inline-block;
+    border:#ff0000 1px solid;
+    margin:2px;
+    font-size:24px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color: #fff;
+}
+
+.numero .grille_de_numero_de_chance .ligne_de_numero_chance li button{
+    display: inline-block;
+    border: #ff0000 1px solid; 
+    margin: 2px; 
+    font-size: 16px; 
+    cursor: pointer;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background-color: #fff;
+}
+
+.numero .numero_dix {
+    margin-left: 70px;
+}
+
+.joker h3 {
+    margin-left:100px; 
+    font-size : 50px; 
+}
+
+.joker .joker_1 {
+    margin-left: 200px; 
+}
+.joker .joker_2 {
+    margin-left: 200px; 
+}
+
+.joker .joker_1 .titre_joker_1{ 
+    font-size: 20px; 
+}
+.joker .joker_2 .titre_joker_2{ 
+    font-size: 20px; 
+}
+
+.joker .joker_1 button{ 
+    display:inline-block;
+    margin : 2px; 
+    border-radius: 10px;
+    font-size: 15px;
+    border-color: rgb(111, 199, 111);   
+    background-color: #fff;
+}
+.joker .joker_2 button{ 
+    display:inline-block;
+    margin : 2px; 
+    border-radius: 10px;
+    font-size: 15px;
+    border-color: rgb(111, 199, 111);   
+    background-color: #fff;
+}
+
+.Validation li button { 
+    display:inline-block;
+    margin : 2px; 
+    border-radius: 10px;
+    width: 150px; 
+    height : 50px; 
+    font-size: 30px;
+}
+
+.Validation li .Valider{ 
+    border: rgb(54,235,54) 1px solid;   
+    width: 150px; 
+    background-color: rgb(54, 235, 54);
+}
+
+.Validation li .Renitialiser {
+    border : red 1px solid; 
+    width: 250px ; 
+    background-color:red ;
+}
+
+
